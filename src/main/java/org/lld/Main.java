@@ -11,13 +11,13 @@ import org.lld.tictactoe.Game;
 
 public class Main {
     public static void main(String[] args) {
-       // StrategyPattern strategyPattern = new StrategyPattern();
+        StrategyPattern strategyPattern = new StrategyPattern();
        // ObserverPattern observerPattern = new ObserverPattern();
        // DecoratorPattern decoratorPattern = new DecoratorPattern();
        // AbstractFactoryPattern abstractFactoryPattern  = new AbstractFactoryPattern();
         //Game game = new Game();
         //LoggingClient loggingClient = new LoggingClient();
-        Calculator calculator = new Calculator();
-        calculator.demo();
+//        Calculator calculator = new Calculator();
+//        calculator.demo();
     }
 }
